@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="">Contact Us</a>
+    </div>
+
+
+    <div class="main-container">
+    <h1>Contact Me</h1>
+    <form>
+      <!-- Name -->
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+      <!-- Email -->
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+      <!-- Radio Buttons -->
+      <div class="radio-group">
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+      </div>
+
+      <!-- Checkboxes -->
+      <div class="checkbox-group">
+        <label>Services Interested In:</label>
+        <input type="checkbox" id="web" name="services" value="web">
+        <label for="web">Web Development</label>
+        <input type="checkbox" id="network" name="services" value="network">
+        <label for="network">Networking</label>
+        <input type="checkbox" id="fiber" name="services" value="fiber">
+        <label for="fiber">Fiber Optics</label>
+      </div>
+
+      <!-- Message -->
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" placeholder="Write your message..."></textarea>
+
+      <!-- Submit Button -->
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+</body>
+</body>
+</html>
